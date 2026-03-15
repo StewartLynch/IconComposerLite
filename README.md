@@ -9,6 +9,8 @@ A free, open-source macOS app for designing and exporting iOS and macOS app icon
 ![Swift](https://img.shields.io/badge/Swift-5.9%2B-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+> **NOTE:** This was a 3 hour project, mostly Vibe Coded with Claude Code and is not intended to represent my best work.  I used two of my own packages for the [SFSymbol](https://github.com/StewartLynch/SFSymbolPicker) and [Emoji](https://github.com/StewartLynch/EmojiPicker) pickers as well as a package called [Icon Generator](https://github.com/schwa/icon-generator) that was really the inspiration for this project.
+
 ## What It Does
 
 **IconComposer Lite** gives you a visual editor to build app icons and export them as `.icon` bundles — the same format used by Apple's Icon Composer tool. Design your icon, preview it in real time, and export it ready for Xcode or for opening in IconComposer for more fine tuning.

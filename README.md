@@ -3,6 +3,8 @@
 " target="_blank"><img src="http://img.youtube.com/vi/AuXouSw1gxw/0.jpg" 
 alt="Icon Composer Lite" width="480" height="360" border="1" /></a>
 
+> Click on image above to view demo video
+
 A free, open-source macOS app for designing and exporting iOS and macOS app icons using Apple's Icon Composer format.
 
 ![macOS](https://img.shields.io/badge/macOS-26%2B-blue)

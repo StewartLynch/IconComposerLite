@@ -1,0 +1,42 @@
+{
+  "originHash" : "5eecc3123e1e51136ca76f527ba759a0ef2e0942d3f93d52f75713fa6be3375c",
+  "pins" : [
+    {
+      "identity" : "emojipicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/StewartLynch/EmojiPicker",
+      "state" : {
+        "revision" : "c8276906857e99b47a11beb34e2902091d8b29a7",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "icon-generator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/schwa/icon-generator",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0be3d5fe7b275957a392916e56089d9748a73509"
+      }
+    },
+    {
+      "identity" : "sfsymbolpicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/StewartLynch/SFSymbolPicker",
+      "state" : {
+        "revision" : "5badece2a78387a37a3c3a3c86b56a7b49f31e52",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "c5d11a805e765f52ba34ec7284bd4fcd6ba68615",
+        "version" : "1.7.0"
+      }
+    }
+  ],
+  "version" : 3
+}

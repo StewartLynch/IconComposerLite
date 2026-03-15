@@ -17,14 +17,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var config = IconConfig()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HSplitView {
+            IconPreviewView(config: config)
+                .frame(minWidth: 300)
+
+            IconConfigPanel(config: config)
+                .frame(minWidth: 280, idealWidth: 320)
         }
-        .padding()
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Button {
+                    IconExporter.export(config: config)
+                } label: {
+                    Label("Export", systemImage: "square.and.arrow.up")
+                }
+            }
+        }
     }
 }
 

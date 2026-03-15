@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BB74768B2F66194D0033E084 /* EmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = BB74768A2F66194D0033E084 /* EmojiPicker */; };
+		BB74768E2F66195F0033E084 /* SFSymbolPicker in Frameworks */ = {isa = PBXBuildFile; productRef = BB74768D2F66195F0033E084 /* SFSymbolPicker */; };
+		BBADF4ED2F65BB3E00B05DEE /* IconComposerFormat in Frameworks */ = {isa = PBXBuildFile; productRef = BBADF4EC2F65BB3E00B05DEE /* IconComposerFormat */; };
+		BBADF4EF2F65BB3E00B05DEE /* IconRendering in Frameworks */ = {isa = PBXBuildFile; productRef = BBADF4EE2F65BB3E00B05DEE /* IconRendering */; };
+		BBADF4F12F65BB3E00B05DEE /* SVGRasterizer in Frameworks */ = {isa = PBXBuildFile; productRef = BBADF4F02F65BB3E00B05DEE /* SVGRasterizer */; };
+		BBADF4F32F65BB3E00B05DEE /* SVGXML in Frameworks */ = {isa = PBXBuildFile; productRef = BBADF4F22F65BB3E00B05DEE /* SVGXML */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BBADF4DD2F65BAF600B05DEE /* IconComposerLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconComposerLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +32,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBADF4F12F65BB3E00B05DEE /* SVGRasterizer in Frameworks */,
+				BB74768E2F66195F0033E084 /* SFSymbolPicker in Frameworks */,
+				BBADF4EF2F65BB3E00B05DEE /* IconRendering in Frameworks */,
+				BBADF4ED2F65BB3E00B05DEE /* IconComposerFormat in Frameworks */,
+				BB74768B2F66194D0033E084 /* EmojiPicker in Frameworks */,
+				BBADF4F32F65BB3E00B05DEE /* SVGXML in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,12 @@
 			);
 			name = IconComposerLite;
 			packageProductDependencies = (
+				BBADF4EC2F65BB3E00B05DEE /* IconComposerFormat */,
+				BBADF4EE2F65BB3E00B05DEE /* IconRendering */,
+				BBADF4F02F65BB3E00B05DEE /* SVGRasterizer */,
+				BBADF4F22F65BB3E00B05DEE /* SVGXML */,
+				BB74768A2F66194D0033E084 /* EmojiPicker */,
+				BB74768D2F66195F0033E084 /* SFSymbolPicker */,
 			);
 			productName = IconComposerLite;
 			productReference = BBADF4DD2F65BAF600B05DEE /* IconComposerLite.app */;
@@ -94,6 +115,11 @@
 			);
 			mainGroup = BBADF4D42F65BAF600B05DEE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BBADF4EB2F65BB3E00B05DEE /* XCRemoteSwiftPackageReference "icon-generator" */,
+				BB7476892F66194D0033E084 /* XCRemoteSwiftPackageReference "EmojiPicker" */,
+				BB74768C2F66195F0033E084 /* XCRemoteSwiftPackageReference "SFSymbolPicker" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BBADF4DE2F65BAF600B05DEE /* Products */;
 			projectDirPath = "";
@@ -256,9 +282,20 @@
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,9 +325,20 @@
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,6 +379,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB7476892F66194D0033E084 /* XCRemoteSwiftPackageReference "EmojiPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StewartLynch/EmojiPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+		BB74768C2F66195F0033E084 /* XCRemoteSwiftPackageReference "SFSymbolPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StewartLynch/SFSymbolPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		BBADF4EB2F65BB3E00B05DEE /* XCRemoteSwiftPackageReference "icon-generator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/schwa/icon-generator";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB74768A2F66194D0033E084 /* EmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB7476892F66194D0033E084 /* XCRemoteSwiftPackageReference "EmojiPicker" */;
+			productName = EmojiPicker;
+		};
+		BB74768D2F66195F0033E084 /* SFSymbolPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB74768C2F66195F0033E084 /* XCRemoteSwiftPackageReference "SFSymbolPicker" */;
+			productName = SFSymbolPicker;
+		};
+		BBADF4EC2F65BB3E00B05DEE /* IconComposerFormat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBADF4EB2F65BB3E00B05DEE /* XCRemoteSwiftPackageReference "icon-generator" */;
+			productName = IconComposerFormat;
+		};
+		BBADF4EE2F65BB3E00B05DEE /* IconRendering */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBADF4EB2F65BB3E00B05DEE /* XCRemoteSwiftPackageReference "icon-generator" */;
+			productName = IconRendering;
+		};
+		BBADF4F02F65BB3E00B05DEE /* SVGRasterizer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBADF4EB2F65BB3E00B05DEE /* XCRemoteSwiftPackageReference "icon-generator" */;
+			productName = SVGRasterizer;
+		};
+		BBADF4F22F65BB3E00B05DEE /* SVGXML */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBADF4EB2F65BB3E00B05DEE /* XCRemoteSwiftPackageReference "icon-generator" */;
+			productName = SVGXML;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BBADF4D52F65BAF600B05DEE /* Project object */;
 }

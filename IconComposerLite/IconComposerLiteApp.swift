@@ -22,5 +22,6 @@ struct IconComposerLiteApp: App {
         WindowGroup {
             ContentView()
         }
+        .defaultSize(width: 750, height: 550)
     }
 }

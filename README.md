@@ -31,6 +31,8 @@ A free, open-source macOS app for designing and exporting iOS and macOS app icon
 
 Grab the latest release from the [Releases page](https://github.com/StewartLynch/IconComposerLite/releases/latest), or download directly:
 
+[![Download DMG](https://img.shields.io/badge/Download-DMG-blue)](https://github.com/StewartLynch/IconComposerLite/releases/latest/download/IconComposerLite.dmg)
+
 [![Download DMG](https://img.shields.io/github/v/release/StewartLynch/IconComposerLite?label=Download&color=blue)](https://github.com/StewartLynch/IconComposerLite/releases/download/v1.0.0/IconComposerLite.dmg)
 
 ## Requirements

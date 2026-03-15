@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(grep -r \"import \" /Users/slynch/Desktop/IconComposerLite/IconComposerLite/*.swift)"
+      "Bash(grep -r \"import \" /Users/slynch/Desktop/IconComposerLite/IconComposerLite/*.swift)",
+      "Bash(gh --version)"
     ]
   }
 }

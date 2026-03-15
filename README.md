@@ -20,6 +20,12 @@ A free, open-source macOS app for designing and exporting iOS and macOS app icon
 - **Real-time preview** — see your icon update live as you configure it
 - **Export to `.icon`** — outputs a proper Icon Composer bundle with SVG layers and `icon.json`, ready for Xcode
 
+## Download
+
+Grab the latest release from the [Releases page](https://github.com/StewartLynch/IconComposerLite/releases/latest), or download directly:
+
+[![Download DMG](https://img.shields.io/github/v/release/StewartLynch/IconComposerLite?label=Download&color=blue)](https://github.com/StewartLynch/IconComposerLite/releases/download/v1.0.0/IconComposerLite.dmg)
+
 ## Requirements
 
 - macOS 26 or later
@@ -30,7 +36,7 @@ A free, open-source macOS app for designing and exporting iOS and macOS app icon
 Clone the repo and open `IconComposerLite.xcodeproj` in Xcode. All Swift Package dependencies will resolve automatically.
 
 ```bash
-git clone https://github.com/your-username/IconComposerLite.git
+git clone https://github.com/StewartLynch/IconComposerLite.git
 cd IconComposerLite
 open IconComposerLite.xcodeproj
 ```
